@@ -1,0 +1,25 @@
+{
+  "name": "webpack-react-auto-route-plugin",
+  "version": "1.0.1",
+  "description": "auto create react route base on file structure",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/webpack-react-auto-route-plugin.git"
+  },
+  "keywords": [],
+  "author": "postor@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/webpack-react-auto-route-plugin/issues"
+  },
+  "homepage": "https://github.com/postor/webpack-react-auto-route-plugin#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  }
+}

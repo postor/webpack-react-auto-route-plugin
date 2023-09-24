@@ -3,7 +3,9 @@ auto create react route base on file structure
 
 ## how to use
 
-example project: https://github.com/postor/webpack-react-auto-route-plugin-example
+example projects: 
+ - [JavaScript version](https://github.com/postor/webpack-react-auto-route-plugin-example) [online preview](https://githubbox.com/postor/webpack-react-auto-route-plugin-example)
+ - [TypeScript version](https://github.com/postor/webpack-react-auto-route-plugin-ts-example) [online preview](https://githubbox.com/postor/webpack-react-auto-route-plugin-ts-example )
 
 ```
 // webpack.config.js

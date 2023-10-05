@@ -38,6 +38,8 @@ class AutoRoutePlugin {
         options: this.option
       },
     });
+    if (compiler.options.mode !== 'development' && !compiler.watchMode)
+      return;
     let watcher = new FileStructureWatcher(this.option.root)
     // Register the recompile './get-routes.js' callback to 'structure_change' event
     watcher.onChange(() => {

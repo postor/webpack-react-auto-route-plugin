@@ -1,6 +1,6 @@
 {
   "name": "webpack-react-auto-route-plugin",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "auto create react route base on file structure",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "postor@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/postor/webpack-react-auto-route-plugin/issues"
   },

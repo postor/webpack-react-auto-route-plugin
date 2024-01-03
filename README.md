@@ -16,7 +16,7 @@ module.exports = {
   plugins:[
     new AutoRoutePlugin({
       root: './src/pages', //route base on structure of './src/pages'
-      skip: /^\$*/, // ignore files starts with '$'
+      skip: /^\$/, // ignore files starts with '$'
       extensions: ['.ts','.tsx','.js','.jsx','.mjs','.cjs'], // only route file with these extensions
       getRoutesFile: /get-routes\.js/, // 
     })

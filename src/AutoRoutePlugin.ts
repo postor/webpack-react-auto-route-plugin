@@ -1,4 +1,3 @@
-import FileStructureWatcher from "./FileStructureWatcher";
 import fs from 'fs'
 import files from "./get-routes-files";
 
@@ -37,17 +36,6 @@ class AutoRoutePlugin {
         loader: loaderPath,
         options: this.option
       },
-    });
-    if (compiler.options.mode !== 'development' && !compiler.watchMode)
-      return;
-    let watcher = new FileStructureWatcher(this.option.root)
-    // Register the recompile './get-routes.js' callback to 'structure_change' event
-    watcher.onChange(() => {
-      // Your callback logic here
-      console.log('Structure has changed. Recompiling ./get-routes.js')
-      for (let file of files) {
-        updateFile(file)
-      }
     });
   }
 }

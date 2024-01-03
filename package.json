@@ -1,6 +1,6 @@
 {
   "name": "webpack-react-auto-route-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "auto create react route base on file structure",
   "main": "dist/index.js",
   "scripts": {
@@ -21,8 +21,5 @@
   "devDependencies": {
     "@types/node": "^20.6.3",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "chokidar": "^3.5.3"
   }
 }

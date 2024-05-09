@@ -1,5 +1,6 @@
 # webpack-react-auto-route-plugin
-auto create react route base on file structure
+
+This plugin can automatically create react routes config for react-router base on file structure of page source files
 
 ## how to use
 
